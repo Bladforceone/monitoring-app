@@ -12,8 +12,6 @@
 
 # 🔹 Go Modules
 /go/pkg/
-go.sum
-go.mod
 
 # 🔹 Temporary Go files
 *.log
