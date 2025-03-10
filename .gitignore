@@ -1,0 +1,56 @@
+# 🔹 Go Build Artifacts
+/build/
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.a
+
+# 🔹 Go Modules
+/go/pkg/
+go.sum
+go.mod
+
+# 🔹 Temporary Go files
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# 🔹 SQLC & Goose
+sqlc.yaml
+/sql/migrations/*.log
+/sql/migrations/*.tmp
+
+# 🔹 Logs & Runtime files
+logs/
+*.log
+*.pid
+*.seed
+
+# 🔹 Docker
+docker-compose.override.yml
+.dockerignore
+/.idea/docker-compose/
+
+# 🔹 IDE/Editor-specific
+.vscode/
+.idea/
+*.iml
+
+# 🔹 Git-related files
+*.orig
+*.bak
+*.swp
+
+# 🔹 .env & Credentials
+.env
+.env.local
+.env.development
+.env.production
+.env.test

@@ -1,0 +1,5 @@
+monitoring:
+  interval: 30s
+  websites:
+    - "https://google.com"
+    - "https://github.com"
